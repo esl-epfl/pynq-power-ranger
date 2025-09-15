@@ -1,0 +1,5264 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a419d6e8-42b7-46ea-9f0f-dfff679c242c")
+	(paper "A4")
+	(title_block
+		(title "Pynq Power Ranger")
+		(date "2024-06-19")
+		(rev "0")
+		(company "EPFL, Embedded Systems Laboratory")
+		(comment 1 "Author: Taraneh Aminosharieh Najafi")
+		(comment 2 "Author: Miguel Peón Quirós")
+		(comment 3 "Author: Ruben Rodriguez Alvarez")
+		(comment 4 "Author: Alejandro Lopez Rodriguez")
+	)
+	(lib_symbols
+		(symbol "PYNQ_SchLib:C0805C104M3RACTU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -4.826 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n 10V"
+				(at -4.826 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:C0805"
+				(at -37.084 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0805C104M3RACTU_C2168659.pdf"
+				(at -37.084 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" " 25V 100nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS "
+				(at -38.1 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C0805C104M3RACTU"
+				(at -27.178 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2168659"
+				(at -32.004 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C0805C104M3RACTU_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:ESQT-103-02-F-S-309"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESQT-103-02-F-S-309"
+				(at 11.938 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:ESQT-103-02-F-S-309"
+				(at -12.7 -13.208 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.es/datasheet/2/527/esqt_th-2854210.pdf"
+				(at -0.254 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" " Headers & Wire Housings FleXYZ Flexible-Height Socket Strip, 2.00mm Pitch "
+				(at 6.35 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ESQT-103-02-F-S-309"
+				(at -19.05 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESQT-103-02-F-S-309_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.715 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ESQT-103-02-F-S-309_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:HB-PH3-25414PB2GOP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HB-PH3-25414PB2GOP"
+				(at 11.43 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:4-Row_Header_2.54mm"
+				(at -30.734 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25414PB2GOP_C6332197.pdf"
+				(at 10.16 -16.764 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Gold 250V 3A Direct Insert Policy 2.54mm 4P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 1x4P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+				(at 31.242 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HB-PH3-25414PB2GOP"
+				(at -36.83 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6332197"
+				(at -43.688 -24.638 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HB-PH3-25414PB2GOP_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.715 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HB-PH3-25414PB2GOP_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:HB-PH3-25416PB2GOP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HB-PH3-25416PB2GOP"
+				(at 11.43 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:6-Row_Header_2.54mm"
+				(at -18.542 -25.146 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25416PB2GOP_C6332199.pdf"
+				(at 22.352 -21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "  Gold 250V 3A Direct Insert Policy 2.54mm 6P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 1x6P 2.54mm Plugin,P=2.54mm Pin Headers ROHS "
+				(at 42.926 -23.114 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HB-PH3-25416PB2GOP"
+				(at -24.638 -26.924 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6332199"
+				(at -31.496 -28.956 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HB-PH3-25416PB2GOP_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.715 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HB-PH3-25416PB2GOP_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:HB-PH3-25418PB2GOP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.508 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HB-PH3-25418PB2GOP"
+				(at 11.684 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:8-Row_Header_2.54mm"
+				(at -50.292 -30.734 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25418PB2GOP_C6332201.pdf"
+				(at -9.398 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "  Gold 250V 3A Direct Insert Policy 2.54mm 8P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 2.54mm 1x8P Plugin,P=2.54mm Pin Headers ROHS "
+				(at 11.176 -28.702 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HB-PH3-25418PB2GOP"
+				(at -56.388 -32.512 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C6332201"
+				(at -63.246 -34.544 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HB-PH3-25418PB2GOP_0_1"
+				(rectangle
+					(start 0 0)
+					(end 5.715 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HB-PH3-25418PB2GOP_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -20.32 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:HJ-SMA020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -4.826 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HJ-SMA020"
+				(at -4.826 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:HJ-SMA020"
+				(at -36.068 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010002_HJ-Tech-HJ-SMA020_C1509233.pdf"
+				(at -37.592 -16.256 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "  1 Inner Hole SMA Board-End Elbow 8.1mm 5.35mm Plugin Coaxial Connectors (RF) ROHS "
+				(at -39.37 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HJ-SMA020"
+				(at -31.75 -18.288 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1509232"
+				(at -32.512 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "sma"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HJ-SMA020_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "HJ-SMA020_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:INA214AIDCKT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA214AIDCKT"
+				(at 17.018 -18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:SC70-6"
+				(at -3.302 -29.972 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/ina214"
+				(at 3.556 -34.036 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current Sense Amplifiers Hi/Lo-Side Bi-Dir 0- Drift Ser Crnt Shunt "
+				(at 20.32 -32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "INA214AIDCKT"
+				(at -7.112 -36.068 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C105240"
+				(at -9.398 -38.354 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA214AIDCKT_0_1"
+				(polyline
+					(pts
+						(xy 15.24 -12.7) (xy 17.78 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INA214AIDCKT_1_1"
+				(polyline
+					(pts
+						(xy 19.05 -15.24) (xy 17.78 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -20.32) (xy 20.32 -10.16) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "REF"
+					(at 13.716 -11.43 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(color 0 132 132 1)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -20.32 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 270)
+					(length 3.81)
+					(name "+VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 22.86 -10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:MH_M3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MH"
+				(at -1.524 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MH_M3"
+				(at -1.524 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:MH_M3"
+				(at -8.382 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -37.084 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole M3"
+				(at -8.382 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MH_M3_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 0)
+					(radius 0.9158)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MH_M3_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:PA0805FRE470R008L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.794 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0R008"
+				(at -2.794 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:R0805"
+				(at -39.37 -8.636 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311211101_YAGEO-PE0805FRE470R02Z_C2935257.pdf"
+				(at -39.37 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" " 500mW ±50ppm/℃ ±1% 8mΩ 0805 Chip Resistor - Surface Mount ROHS "
+				(at -40.386 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "PA0805FRE470R008L"
+				(at -28.956 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C728269"
+				(at -34.798 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PA0805FRE470R008L_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PA0805FRE470R008L_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:SS-12D10L5 "
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.016 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS-12D10L5 "
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:SS-12D10L5"
+				(at -25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XKB-Connection-SS-12D10L5_C319012.pdf"
+				(at 13.97 -17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "  3A Direct Insert Single Pole Double Throw (SPDT) 125V 125V 3A 10,000 times Black Plugin Slide Switches ROHS "
+				(at 17.018 -14.986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SS-12D10L5 "
+				(at -31.242 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C319012"
+				(at -33.782 -21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS-12D10L5 _0_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS-12D10L5 _1_1"
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 2.032 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -5.08) (xy 3.048 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.128 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.302 -3.302) (xy 3.048 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.0508)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 132 0 0 1)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PYNQ_SchLib:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PYNQ_PcbLib:TestPoint_Pad_D2.0mm"
+				(at 3.81 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 123.19 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0513ad37-d38f-4c4c-acf5-a7919180b5a0")
+	)
+	(junction
+		(at 233.68 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09fbf315-9681-4370-b378-efb2cb903036")
+	)
+	(junction
+		(at 144.78 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207ad936-e2f4-47b8-9253-d117affbda70")
+	)
+	(junction
+		(at 232.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25372262-7c19-4e2c-a622-f09f3344b55e")
+	)
+	(junction
+		(at 71.12 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "322c9bac-387c-4aec-a404-60a6dd179a78")
+	)
+	(junction
+		(at 171.45 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68b5f036-b17a-45aa-8fa9-2dd5ba39a42c")
+	)
+	(junction
+		(at 123.19 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72b46f95-7e9e-4226-8c3c-276ea47585ea")
+	)
+	(no_connect
+		(at 236.22 106.68)
+		(uuid "24ed6505-c109-455a-bd4c-a99dac17f399")
+	)
+	(no_connect
+		(at 236.22 114.3)
+		(uuid "273e0f84-4d34-48a6-b6ec-f24eecc20dbf")
+	)
+	(no_connect
+		(at 236.22 76.2)
+		(uuid "2a147483-174e-49d3-95d5-e94455cd9115")
+	)
+	(no_connect
+		(at 236.22 66.04)
+		(uuid "44bb5852-e704-4278-9115-f34cb6163cbd")
+	)
+	(no_connect
+		(at 236.22 99.06)
+		(uuid "60c48323-7f13-45ea-9254-81f95b7c80ef")
+	)
+	(no_connect
+		(at 236.22 104.14)
+		(uuid "76089b8e-4496-4cc9-8d3b-8a637f4b8b13")
+	)
+	(no_connect
+		(at 236.22 101.6)
+		(uuid "8319c10c-6dea-449e-8014-c60694b25c06")
+	)
+	(no_connect
+		(at 236.22 96.52)
+		(uuid "b44caa16-8a76-45fe-a7cd-1d36a9b42266")
+	)
+	(no_connect
+		(at 236.22 68.58)
+		(uuid "b68dc0a0-445d-47fa-b8d9-72234c713e39")
+	)
+	(no_connect
+		(at 236.22 73.66)
+		(uuid "c92bb3d8-e4b0-4fb3-97ed-4e07707967ff")
+	)
+	(no_connect
+		(at 236.22 71.12)
+		(uuid "ef73c5bf-1061-4bb7-bbda-b6b322191f7b")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cadb57a-01d5-4d68-a278-2ccb558870ad")
+	)
+	(wire
+		(pts
+			(xy 101.6 59.69) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0da47891-e366-48ae-8639-1c4fede1b980")
+	)
+	(wire
+		(pts
+			(xy 228.6 53.34) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fba2b33-3176-4cdd-9f41-782fb4a9053f")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13383b65-fe92-4323-a17c-908c7abf3037")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e693120-0ed5-4b73-bc41-0435d95e1a6f")
+	)
+	(wire
+		(pts
+			(xy 177.8 63.5) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b157833-18ee-4096-8138-f3184c0c77bf")
+	)
+	(wire
+		(pts
+			(xy 71.12 156.21) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4dd940-6d6d-47fd-b146-42c8b192ff59")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee5cff8-9ad6-459c-9061-a5918eb35102")
+	)
+	(wire
+		(pts
+			(xy 236.22 109.22) (xy 232.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e1911a-9b6c-4641-b3b5-04f35fb5edc2")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 123.19 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cf5b4c8-b4b4-46be-8f43-c91be5a9205b")
+	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 215.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e689e82-6b30-4d13-acbf-69fd4e180077")
+	)
+	(wire
+		(pts
+			(xy 54.61 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f80d1d2-57fe-4e25-99c3-1a01278e59dd")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dc3f83-8ecc-4176-a11c-6d2eb4ce61d9")
+	)
+	(wire
+		(pts
+			(xy 144.78 49.53) (xy 144.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56789b2c-3b46-4b12-b686-6a85f6ad1b0c")
+	)
+	(wire
+		(pts
+			(xy 54.61 63.5) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5784b38e-b214-4186-8815-b6b82f9d84f5")
+	)
+	(wire
+		(pts
+			(xy 185.42 96.52) (xy 185.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57bf64c6-a029-49c7-9317-b4b067d99194")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b480392-43f8-4132-b312-881703c3171c")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 144.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6a30b7-9a53-498b-8f44-ed688c7f5e4e")
+	)
+	(wire
+		(pts
+			(xy 171.45 91.44) (xy 171.45 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e35b5e-c16d-473c-86ca-aac26c901da4")
+	)
+	(wire
+		(pts
+			(xy 232.41 111.76) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1c4cf3-3e3a-46e1-b2a0-1563e8c16fba")
+	)
+	(wire
+		(pts
+			(xy 236.22 111.76) (xy 232.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d849286-2896-438f-910e-232c0f0e1409")
+	)
+	(wire
+		(pts
+			(xy 228.6 43.18) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea1ac36-81db-4350-9fbe-8fdf51c8131d")
+	)
+	(wire
+		(pts
+			(xy 96.52 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71b36544-64da-49f4-8e8a-270f9bc29f84")
+	)
+	(wire
+		(pts
+			(xy 123.19 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796144b6-5bd9-4715-824a-44da544cc640")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 69.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7af32fba-21a3-4b13-9730-4cac30a89d0a")
+	)
+	(wire
+		(pts
+			(xy 232.41 109.22) (xy 232.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b19720d-0095-46e9-b93f-a0fdb24d8936")
+	)
+	(wire
+		(pts
+			(xy 171.45 63.5) (xy 160.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b49a03b-a033-4a92-aade-0126c87fe00e")
+	)
+	(wire
+		(pts
+			(xy 40.64 156.21) (xy 53.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d88a7f1-3818-4a8d-9b6a-4939113863c1")
+	)
+	(wire
+		(pts
+			(xy 180.34 91.44) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8103c563-7337-47e9-85f3-81b4a2572273")
+	)
+	(wire
+		(pts
+			(xy 193.04 60.96) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829d10fd-1489-4088-9e06-6b2c5b8db753")
+	)
+	(wire
+		(pts
+			(xy 40.64 146.05) (xy 53.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875ffb13-4aab-4084-8901-bf0d75015116")
+	)
+	(wire
+		(pts
+			(xy 40.64 176.53) (xy 40.64 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8822e566-f68f-424e-86d4-59d2edd350af")
+	)
+	(wire
+		(pts
+			(xy 236.22 45.72) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a611586-6f67-4731-813c-c7457fe4cf6f")
+	)
+	(wire
+		(pts
+			(xy 215.9 60.96) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3d7487-9c83-4023-a8fa-1e31603440a3")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 149.86 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c1e720-eb73-49e2-a537-c2bb889cdbe9")
+	)
+	(wire
+		(pts
+			(xy 233.68 43.18) (xy 233.68 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f0b6d9-2fd3-4695-bb69-4b9f1f8905b1")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce05034-5a5e-41e0-96b5-1902ce87739f")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 236.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a3c378-84c7-4855-a15a-34b7f8d7f01f")
+	)
+	(wire
+		(pts
+			(xy 78.74 156.21) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e4893f-cc49-4ee9-89ab-ef0c516c033a")
+	)
+	(wire
+		(pts
+			(xy 40.64 143.51) (xy 40.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7840ee7-416a-4265-92c9-23de4308027a")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 71.12 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac940686-7ec6-4faf-a66b-54d87c636058")
+	)
+	(wire
+		(pts
+			(xy 165.1 76.2) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5736662-e41e-4915-a812-90a3ae7c2579")
+	)
+	(wire
+		(pts
+			(xy 228.6 115.57) (xy 228.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b8fa12-4d9f-4f47-b1ba-b9d98588a976")
+	)
+	(wire
+		(pts
+			(xy 215.9 66.04) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96a5a6b-51a7-4280-8cfe-79e74cb44f78")
+	)
+	(wire
+		(pts
+			(xy 144.78 73.66) (xy 144.78 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd4efb28-b831-44db-b9b8-927f4877e887")
+	)
+	(wire
+		(pts
+			(xy 54.61 60.96) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fcad1a-35bf-4715-ab91-7541375a4ef9")
+	)
+	(wire
+		(pts
+			(xy 222.25 40.64) (xy 236.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f19fbb-09ab-440e-b001-fa19cdef15e9")
+	)
+	(wire
+		(pts
+			(xy 78.74 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb802ff-5f7b-4096-a558-144dd2c3f08d")
+	)
+	(wire
+		(pts
+			(xy 236.22 43.18) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da82d666-eff0-4183-9647-f3044ff5134c")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddbb31fc-5018-472c-ab0b-20fbb00400af")
+	)
+	(wire
+		(pts
+			(xy 40.64 176.53) (xy 53.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3299187-143b-4d6e-8a43-7de8f571435f")
+	)
+	(wire
+		(pts
+			(xy 40.64 166.37) (xy 53.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cc2af3-3b97-41a9-90de-cd0dd80e11f4")
+	)
+	(wire
+		(pts
+			(xy 119.38 49.53) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecda8222-fb6e-4df2-9cea-f331aa13638e")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17abb63-acac-4e0c-a26f-c372a075a184")
+	)
+	(rectangle
+		(start 33.02 27.94)
+		(end 262.89 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92a15711-d66f-4f0c-9965-4eccba1efcb3)
+	)
+	(rectangle
+		(start 33.02 134.62)
+		(end 96.52 187.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 973391df-cff0-4518-a740-b14972d89e24)
+	)
+	(text_box "Supply Considerations\n----------------------------------------------\nThe Pynq Z2 board can be powered via:\n- USB Micro-B Connector (5.0 V)\n- DC Jack 7.0 V - 15.0 V Input (Post regulated to 5.0 V in any case)\n\nUse SW1 (PWR) to select the right source depending on your settings (Left USB - Right DC Jack). Otherwise the board won't power up.\n\n"
+		(exclude_from_sim no)
+		(at 52.07 81.28 0)
+		(size 76.2 19.05)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 2 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4ec7a5f7-bda3-40ac-aeec-ff4a151b8516")
+	)
+	(text_box "Measurement Considerations\n----------------------------------------------\nThe on-board ADC of the Pynq Z2 board has a reference voltage of 1.0 V\nSignals can be digitized in two ways:\n- Through the arduino-compatible pins A0-A5.\n- Through the VP pin on the vertical female connector adjacent to the buttons.\n\nThe arduino-compatible pins are internally connected to a resistor voltage divider that outputs 1.0 V when the input voltage is 3.3 V.\nThe VP pins are directly connected to the ADC input.\n\nThus, the range of the Arduino-pins is higher at a cost of their resolution.\n\nTo toggle between the two inputs, use the SW2 (ANA) switch (Left VP - Right Arduino A0 Pin)\n\nThe amplifier has a gain of 100 V/V, and the shunt resistor is 8 mΩ. \nThus V_{ADC} = (I_{LOAD} * R_{SHUNT}) * 100\n\nTaking this into account, for the VP pin, we have that saturation (V_{ADC} = 1.0 V), will be reached when I_{LOAD} = 1.25 A. \nIf currents greater than 1.25 A are required (to power external PMODs, for instance), the switch should be set to A0. \n\nThe obtained resolution is:\n- 0.3 mA for VP\n- 1.0 mA for A0\n\n"
+		(exclude_from_sim no)
+		(at 99.06 129.54 0)
+		(size 76.2 62.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 2 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "abc2c97f-8d52-4737-8b37-2d8439b78a4b")
+	)
+	(text "Arduino Power"
+		(exclude_from_sim no)
+		(at 248.412 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44664c07-8c5d-4706-8b6f-ac2b13f018ee")
+	)
+	(text "Current measurement: Shunt + Inst.Amp. + Selectors"
+		(exclude_from_sim no)
+		(at 32.766 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a817588-e460-401d-afd5-75831b44cdf4")
+	)
+	(text "ADC\n"
+		(exclude_from_sim no)
+		(at 243.332 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "759fd165-88c5-4174-87e4-5c972a930a49")
+	)
+	(text "Arduino Analog"
+		(exclude_from_sim no)
+		(at 234.696 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d68d633-4a69-4926-a487-b01b2eed867a")
+	)
+	(text "Measurement Selection"
+		(exclude_from_sim no)
+		(at 195.834 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94e058c2-1d1d-40a3-ae8e-f7db543326c3")
+	)
+	(text "Supply Selection"
+		(exclude_from_sim no)
+		(at 81.28 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2196ea0-1957-4e8a-9eab-e707807cdbb8")
+	)
+	(text "Test Points & Mounting Holes"
+		(exclude_from_sim no)
+		(at 32.766 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aac2316f-924d-4598-8c30-7ff2b0bd0b4c")
+	)
+	(text "PYNQ Power"
+		(exclude_from_sim no)
+		(at 43.18 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8d8e205-f897-49b3-aa91-057c9fc6e245")
+	)
+	(label "A_REF"
+		(at 224.79 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c0eee5d-aced-4f10-b117-f1033d9cfd86")
+	)
+	(label "V_AMP"
+		(at 162.56 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34907c72-127e-4d22-902d-683eb420862e")
+	)
+	(label "A_REF"
+		(at 41.91 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81b49539-cfe4-47c8-9d0a-340ff2fa67e0")
+	)
+	(label "PYNQ_5V"
+		(at 64.77 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82e8495b-aa87-42a6-bb2b-25d044a7c3c9")
+	)
+	(label "A0"
+		(at 201.93 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c22a5a12-9e5f-4fb2-9d31-566ed71fd7ab")
+	)
+	(label "REG_5V"
+		(at 63.5 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2e6f221-b0ba-4617-9d3a-10839bd618d5")
+	)
+	(label "V_AMP"
+		(at 40.64 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde60ea0-42c8-49ce-a60f-bdb98768fec7")
+	)
+	(label "ADC_VP"
+		(at 201.93 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5b764a1-f04c-441b-b147-d77f4e5ebc91")
+	)
+	(label "USB_5V"
+		(at 63.5 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7c1cff3-a9bb-4a1b-a366-a769a3a4e83c")
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 165.1 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09396f63-82e4-40f6-bdc4-1d6b3a1b3aa0")
+		(property "Reference" "#PWR07"
+			(at 165.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "754fd858-8bff-4a07-a304-c041745fdcfd")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:C0805C104M3RACTU")
+		(at 153.67 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c4dce4c-2b3d-49e7-8050-e27549748317")
+		(property "Reference" "C1"
+			(at 153.67 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n 10V"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:C0805"
+			(at 116.586 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_KEMET-C0805C104M3RACTU_C2168659.pdf"
+			(at 116.586 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 100nF X7R ±20% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 115.57 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0805C104M3RACTU"
+			(at 126.492 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2168659"
+			(at 121.666 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb8dc28-904a-4b52-9137-bb90c250246c")
+		)
+		(pin "2"
+			(uuid "7cd103d1-a2ff-4169-a487-1eb8649a732b")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:TestPoint")
+		(at 53.34 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a413d8f-9de6-4c37-89cd-5c39871680b6")
+		(property "Reference" "TP3"
+			(at 58.42 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADC_REF"
+			(at 58.42 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:TestPoint_Pad_D2.0mm"
+			(at 45.466 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.34 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94c6df67-9caf-4f28-b0b5-7cad442e9c1b")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:HB-PH3-25414PB2GOP")
+		(at 238.76 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f8e1e50-d71b-444b-ba52-1c306949750e")
+		(property "Reference" "J1"
+			(at 239.776 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HB-PH3-25414PB2GOP"
+			(at 250.19 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:4-Row_Header_2.54mm"
+			(at 208.026 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25414PB2GOP_C6332197.pdf"
+			(at 248.92 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gold 250V 3A Direct Insert Policy 2.54mm 4P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 1x4P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+			(at 270.002 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HB-PH3-25414PB2GOP"
+			(at 201.93 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6332197"
+			(at 195.072 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ab3ada09-7ff7-4552-a09d-59bc2275b2ef")
+		)
+		(pin "4"
+			(uuid "de0313f5-6e92-47fc-a69f-1d8664cdd069")
+		)
+		(pin "2"
+			(uuid "5e159a56-579d-4ff3-b7be-53b7776b27d6")
+		)
+		(pin "1"
+			(uuid "047c8cde-052b-4074-85f8-7e0a02b0ca4c")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 144.78 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26f1eea6-c080-4cd9-8470-c3e178e908f6")
+		(property "Reference" "#PWR06"
+			(at 144.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27affc97-85a1-40a6-acb4-7f456d0288b2")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:MH_M3")
+		(at 82.55 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cf99220-743f-4936-8b3d-b3dfd3e12b63")
+		(property "Reference" "MH1"
+			(at 86.36 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_M3"
+			(at 86.36 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:MH_M3"
+			(at 45.466 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.466 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole M3"
+			(at 44.45 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44c13dce-d9b2-4537-aa13-fd786e2378e7")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "MH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:TestPoint")
+		(at 53.34 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c80ea32-e419-4fbe-91ea-eea71e99ed90")
+		(property "Reference" "TP4"
+			(at 58.42 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:TestPoint_Pad_D2.0mm"
+			(at 45.466 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2279cea9-d7c5-42e9-a36a-d2feaf8a3fa7")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:TestPoint")
+		(at 53.34 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44cceb18-498f-4470-9c6e-f522fe221753")
+		(property "Reference" "TP1"
+			(at 58.42 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:TestPoint_Pad_D2.0mm"
+			(at 45.466 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82a413a7-4a0f-4a23-9d38-cc706e7aedb0")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:MH_M3")
+		(at 82.55 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "493321d8-b7b9-43ae-8eb5-ba48dd30cc8f")
+		(property "Reference" "MH2"
+			(at 86.36 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_M3"
+			(at 86.36 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:MH_M3"
+			(at 45.466 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.466 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole M3"
+			(at 44.45 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f72f0a-cd92-4cad-a546-fb30e471ce77")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "MH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c486ca-7fe6-474b-94d6-31f5f059779e")
+		(property "Reference" "#PWR02"
+			(at 144.78 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b2b315a-d28e-4e3c-9219-6a356118ef36")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 228.6 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "655724cf-4336-441e-86a7-8dd3cd9a378c")
+		(property "Reference" "#PWR08"
+			(at 228.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89c54103-cb4a-4b04-8fcf-43a6ae0f8e03")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:INA214AIDCKT")
+		(at 137.16 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c40c1b-01b2-4099-b613-e2fa709e7027")
+		(property "Reference" "U1"
+			(at 137.668 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA214AIDCKT"
+			(at 148.59 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:SC70-6"
+			(at 133.858 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ina214"
+			(at 140.716 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Amplifiers Hi/Lo-Side Bi-Dir 0- Drift Ser Crnt Shunt"
+			(at 157.48 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "INA214AIDCKT"
+			(at 130.048 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105240"
+			(at 127.762 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3749022-5a7a-42e4-b483-803ab1287ad1")
+		)
+		(pin "5"
+			(uuid "179db919-f4d5-4e86-81f0-5d569e9ac738")
+		)
+		(pin "3"
+			(uuid "9698749e-6e68-434a-945e-1f400a4c2e47")
+		)
+		(pin "6"
+			(uuid "69e34885-97e9-4cdd-9211-029fffd5e621")
+		)
+		(pin "1"
+			(uuid "40ca6e87-dbcb-468c-9c59-6e785bde08db")
+		)
+		(pin "4"
+			(uuid "09954c1b-b19c-47cb-81b4-6b06c21b9f75")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 40.64 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a0492ef-68dd-46ce-94da-3f8cc38d7da6")
+		(property "Reference" "#PWR011"
+			(at 40.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b671585a-032d-4d96-9ec7-f6e3880bfea9")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb788b7-d39c-4bc1-8ae8-80b6560b6736")
+		(property "Reference" "#PWR05"
+			(at 101.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604ec79f-99be-412e-884a-d2a49866a016")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 119.38 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a68c00-f584-4b3c-a360-836f2a96281d")
+		(property "Reference" "#PWR01"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 119.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8eb638c-e059-4546-a620-936c67aed583")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:SS-12D10L5 ")
+		(at 83.82 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76da2433-3ee8-4f50-aa4a-c81fa1ce3a78")
+		(property "Reference" "SW1"
+			(at 85.598 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS-12D10L5"
+			(at 89.916 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:SS-12D10L5"
+			(at 58.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XKB-Connection-SS-12D10L5_C319012.pdf"
+			(at 97.79 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A Direct Insert Single Pole Double Throw (SPDT) 125V 125V 3A 10,000 times Black Plugin Slide Switches ROHS"
+			(at 100.838 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS-12D10L5 "
+			(at 52.578 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C319012"
+			(at 50.038 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "419ac307-0713-46f4-a49c-b6e247abcbf3")
+		)
+		(pin "1"
+			(uuid "dc0525b9-ec05-4b6a-ae59-a373ad665a83")
+		)
+		(pin "3"
+			(uuid "49c74abe-a6c2-459e-acd6-5e4559114bcc")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 71.12 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b8e6fd-28cc-453e-939d-a86eb9b43a6d")
+		(property "Reference" "#PWR010"
+			(at 71.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a30d55-63b0-4d69-89e0-78d9c25b2a28")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:TestPoint")
+		(at 53.34 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e897dcf-7d32-4b49-bd38-905a204b7335")
+		(property "Reference" "TP2"
+			(at 58.42 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vout_I"
+			(at 58.42 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:TestPoint_Pad_D2.0mm"
+			(at 45.466 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4568ff9-96be-4b86-b7b9-af22ae9ca990")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:HJ-SMA020")
+		(at 185.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "7f1ae816-0fd0-4dd3-86b2-64f7a2a9964d")
+		(property "Reference" "J5"
+			(at 189.23 90.4631 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HJ-SMA020"
+			(at 189.23 93.0031 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:HJ-SMA020"
+			(at 149.352 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010002_HJ-Tech-HJ-SMA020_C1509233.pdf"
+			(at 147.828 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 Inner Hole SMA Board-End Elbow 8.1mm 5.35mm Plugin Coaxial Connectors (RF) ROHS"
+			(at 146.05 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HJ-SMA020"
+			(at 153.67 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1509232"
+			(at 152.908 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d77f1259-f119-4a05-9756-0812ff21a301")
+		)
+		(pin "1"
+			(uuid "fbb8b298-f35b-4890-9069-d28c836c4419")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:ESQT-103-02-F-S-309")
+		(at 52.07 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "98ab61ef-83b7-40cd-8b60-b8d1ac742b25")
+		(property "Reference" "J2"
+			(at 47.244 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESQT-103-02-F-S-309"
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:ESQT-103-02-F-S-309"
+			(at 64.77 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/527/esqt_th-2854210.pdf"
+			(at 52.324 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings FleXYZ Flexible-Height Socket Strip, 2.00mm Pitch"
+			(at 45.72 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESQT-103-02-F-S-309"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e0f1fcbc-ade2-4fb5-a06d-865dbad149d8")
+		)
+		(pin "2"
+			(uuid "50d6caf8-2ac8-49a4-9c20-cc89cab0453d")
+		)
+		(pin "1"
+			(uuid "fdd240d0-82a3-4f41-9744-2be88b133199")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:HB-PH3-25418PB2GOP")
+		(at 238.76 116.84 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bfc818b-b73a-4fa2-972d-d4a95fa911bc")
+		(property "Reference" "J4"
+			(at 239.776 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HB-PH3-25418PB2GOP"
+			(at 250.19 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:8-Row_Header_2.54mm"
+			(at 188.468 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25418PB2GOP_C6332201.pdf"
+			(at 229.362 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gold 250V 3A Direct Insert Policy 2.54mm 8P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 2.54mm 1x8P Plugin,P=2.54mm Pin Headers ROHS"
+			(at 249.936 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HB-PH3-25418PB2GOP"
+			(at 182.372 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6332201"
+			(at 175.514 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "3f20f490-8dfd-4072-a276-83c96d40563b")
+		)
+		(pin "6"
+			(uuid "53164e6f-e5b9-46fa-87f3-323cfecde439")
+		)
+		(pin "2"
+			(uuid "ccafdf34-d684-48a5-bc72-61243c04260b")
+		)
+		(pin "7"
+			(uuid "ae4d6660-9f10-4a1b-8baa-415d892e6010")
+		)
+		(pin "5"
+			(uuid "6c6ecab3-3770-4def-aef2-db0e9bddfe3a")
+		)
+		(pin "3"
+			(uuid "69767700-9d51-4d65-8c90-979da966688b")
+		)
+		(pin "1"
+			(uuid "f501fbba-4766-432b-8888-17f01ed306c8")
+		)
+		(pin "4"
+			(uuid "616d520b-ba0c-4171-8d6f-e1135bce3336")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:SS-12D10L5 ")
+		(at 190.5 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cce1465-56c5-45c0-b5bc-cfeebadc98b9")
+		(property "Reference" "SW2"
+			(at 181.864 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS-12D10L5"
+			(at 186.182 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:SS-12D10L5"
+			(at 215.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302232_XKB-Connection-SS-12D10L5_C319012.pdf"
+			(at 176.53 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A Direct Insert Single Pole Double Throw (SPDT) 125V 125V 3A 10,000 times Black Plugin Slide Switches ROHS"
+			(at 173.482 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SS-12D10L5 "
+			(at 221.742 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C319012"
+			(at 224.282 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd9bd16f-6b9d-45de-ac39-bc3cdb56c43c")
+		)
+		(pin "1"
+			(uuid "cf3850be-3b18-43e8-914b-ffaea8be0ab1")
+		)
+		(pin "3"
+			(uuid "0e56aa39-4c70-46e3-bd01-ce719a35aba5")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:HB-PH3-25416PB2GOP")
+		(at 238.76 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aff7d06a-a7c5-4533-ac57-ef96c388c279")
+		(property "Reference" "J3"
+			(at 239.776 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HB-PH3-25416PB2GOP"
+			(at 250.19 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:6-Row_Header_2.54mm"
+			(at 220.218 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2312301326_Hanbo-Electronic-HB-PH3-25416PB2GOP_C6332199.pdf"
+			(at 261.112 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Gold 250V 3A Direct Insert Policy 2.54mm 6P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Single Row 1x6P 2.54mm Plugin,P=2.54mm Pin Headers ROHS"
+			(at 281.686 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HB-PH3-25416PB2GOP"
+			(at 214.122 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6332199"
+			(at 207.264 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbf2194d-ab1d-4546-aba1-e8d6f1ee1884")
+		)
+		(pin "6"
+			(uuid "c913b4aa-8da2-4f29-9367-7383e5d48888")
+		)
+		(pin "1"
+			(uuid "bf75e0ff-24a7-48e9-8401-c416dd3f0d08")
+		)
+		(pin "3"
+			(uuid "3ccac276-fb88-442c-b6f3-be55c4bceae1")
+		)
+		(pin "5"
+			(uuid "8e9d08b2-ffc6-4561-92bc-9485b8630ed6")
+		)
+		(pin "4"
+			(uuid "2ab19c69-33ac-4b84-85a7-c77357188b09")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PYNQ_SchLib:PA0805FRE470R008L")
+		(at 123.19 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2248826-8f2c-42ca-a647-94f3119ffab5")
+		(property "Reference" "R1"
+			(at 125.73 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R008"
+			(at 125.73 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PYNQ_PcbLib:R0805"
+			(at 114.554 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2311211101_YAGEO-PE0805FRE470R02Z_C2935257.pdf"
+			(at 116.84 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mW ±50ppm/℃ ±1% 8mΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 119.126 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PA0805FRE470R008L"
+			(at 112.522 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C728269"
+			(at 110.49 28.702 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c1a2f93-a334-48f8-8c71-5cc807da82b2")
+		)
+		(pin "2"
+			(uuid "fae15504-76ae-471a-b37d-20de1b66e268")
+		)
+		(instances
+			(project ""
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 185.42 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "babb5664-6545-4b1b-85db-fd1b0d166ed1")
+		(property "Reference" "#PWR012"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fdcfb74-0e18-40c0-a99a-195c574dda58")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 228.6 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e93f604e-b9a0-4fc6-be2e-9f825b4aa1c1")
+		(property "Reference" "#PWR04"
+			(at 228.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 228.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b739afb-c1a2-41d2-8e36-bc59be151f0b")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 40.64 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10d0861-4e29-4ba6-9aa2-8da91e425cd4")
+		(property "Reference" "#PWR09"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 40.64 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 40.64 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6255be16-f390-4cef-b3f7-91ea3df32ada")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 161.29 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3816fb9-bf23-444d-9b8d-831df3e15d79")
+		(property "Reference" "#PWR03"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 161.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1243fdd7-8069-47ea-84bd-bd47d72156f7")
+		)
+		(instances
+			(project "Pynq-mb"
+				(path "/a419d6e8-42b7-46ea-9f0f-dfff679c242c"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,134 @@
+(footprint "CS12ANW03"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "22a2df01-12de-4269-9f66-6618961565f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CS12ANW03"
+		(at 0 4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3db2fb90-e3f7-4184-98e7-107c8f29d24e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53816395-800c-49b4-a312-2a97384b3a57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9096e583-4568-46ed-ac22-5f0505fa786d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7136e186-3fb4-419d-92d4-dc5b2fa756af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -7 -3.5)
+		(end 7 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6cb46015-a03b-4997-88dd-f1853e9ab074")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2232cf6-73f8-4e5b-acd7-5facfa081623")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.7 -0.1 180)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a7f1a49f-c4ec-45be-a53e-f5fafb6871f7")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 180)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8ba5ae80-0e53-4285-8d97-1a83c9b046cd")
+	)
+	(pad "3" thru_hole circle
+		(at 4.7 0 180)
+		(size 2.6 2.6)
+		(drill 1.6)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a119c733-a254-4137-a1dc-e4ae2a69d7d5")
+	)
+	(model "${KIPRJMOD}/Libraries/3D Models/CS12ANW03.stp"
+		(offset
+			(xyz 0 0 8.55)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
