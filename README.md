@@ -4,7 +4,7 @@
 
 ## 🚀 Overview
 
-The **Pynq Power Ranger** is a shield designed for the Xilinx Pynq-Z2 SoC board, enabling real-time power consumption measurement of the entire board. The repository contains the necessary PCB files to manufacture the power measurement shield together with the IP configuration to control the current measurement from Linux running on the processing system. The shield measures the voltage drop across a shunt resistor placed in series with the Pynq-Z2 power supply line and sense the measurement with the ADC of the FPGA chip.
+The **Pynq Power Ranger** is a shield designed for the Xilinx Pynq-Z2 SoC board, enabling real-time power consumption measurement of the entire board. The repository contains the necessary PCB files to manufacture the power measurement shield together with the IP configuration to control the current measurement from Linux running on the processing system. The shield measures the voltage drop across a shunt resistor placed in series with the Pynq-Z2 power supply line using the ADC of the FPGA chip.
 
 ## 📦 Repository Contents
 - **[Software Support](SW_Examples/README.md)**: The IP and driver to measure the current from the processing system and one application example that uses the Pynq Power Ranger to compute the energy consumption.
