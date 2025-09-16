@@ -4,9 +4,10 @@
 
 This folder contains two use examples that use the Pynq Power Ranger to measure the energy consumption of the Pynq Z2 board (TUL). Each example includes:
 - The **[XADC IP configuration](Basic_Monitoring_SW_Power/HW/recreate_xadc.tcl)** to read the current measurement from the pin VP of the Power Ranger board. This IP is connected to the AXI4 bus to be controlled from the processing system.
-- A **[C Proxy driver](Basic_Monitoring_SW_Power/SW/src/CXADCProxy.cpp)** to interface with the XADC IP from a Linux application. 
+- A **[C Proxy driver](Basic_Monitoring_SW_Power/SW/src/CXADCProxy.cpp)** to interface with the XADC IP from a Linux application. The XADC acquires 256 samples and averages them to deliver one sample at ~123 Hz. The worker thread waits 8130 us between sample readings (polling), which roughly matches the sample production rate of the ADC.
 
-> [NOTE] These examples assume that the Power Ranger is set to measure from the VP pin and the power is supplied from the USB connector with a typical input supply of 5V. The sampling rate of the XADC is set to 123 MHz.
+> [NOTE] These examples assume that the Power Ranger is set to measure from the VP pin and the power is supplied from the USB connector with a typical input supply of 5V. 
+
 
 ## 📁 Contents
 This folder contains two examples:
