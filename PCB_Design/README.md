@@ -36,6 +36,7 @@ $$ V_{INA} = (I_{LOAD} \times 0.008 \ \Omega) \times 100 \text{ V/V} $$
 
 - **For the VP pin ($V_{VP} = V_{INA}$)**, saturation occurs at $I_{LOAD}$ = 1.25 A ($V_{INA} = V_{ADC \ REF}$ = 1.0 V).
 
->[!CAUTION] If higher currents are required (e.g., for powering external PMODs), switch to **A0 mode**.
+>[!CAUTION]
+> If higher currents are required (e.g., for powering external PMODs), switch to **A0 mode**.
 
 The output of the transimpedance amplifier is also routed to the SMA connector on the right side of the board, enabling a direct connection to an oscilloscope with high input impedance.
