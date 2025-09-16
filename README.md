@@ -47,4 +47,4 @@ For additional information, please contact the authors:
 - **Rubén Rodríguez**: [ruben.rodriguezalvarez@epfl.ch](mailto:ruben.rodriguezalvarez@epfl.ch)
 - **Miguel Peón**: [miguel.peon@epfl.ch](mailto:miguel.peon@epfl.ch)
 
-Developed at the **Embedded Systems Laboratory (ESL), EPFL**.
+Developed at the **[Embedded Systems Laboratory (ESL), EPFL](https://www.epfl.ch/labs/esl/research/)**.
