@@ -17,7 +17,8 @@ The switch **SW1 (PWR)** selects the power source of the Pynq-Z2 board:
 - **Left**: The USB Micro-B Connector (5.0 V)
 - **Right**: The DC Jack (7.0 V - 15.0 V, post-regulated to 5.0 V)
 
-> [WARNING!] This switch replaces the jumper of the board. If the correct source is not selected, the board will not power up.
+> [!WARNING]
+> This switch replaces the jumper of the board. If the correct source is not selected, the board will not power up.
 
 ### 🎯 Selectable ADC Input Range and Precision
 Use **SW2 (ANA)** to toggle between the inputs:
@@ -29,7 +30,8 @@ Use **SW2 (ANA)** to toggle between the inputs:
 | VP        | 1.25 A           | 0.3 mA        |
 | A0        | 3.75 A           | 1.0 mA        |
 
-> [WARNING!] The onboard ADC of the Pynq-Z2 board has a reference voltage of 1.0 V, which defines the saturation point of the measurement. If the current exceeds this value, the measurement will saturate and will not be accurate.
+> [!WARNING]
+> The onboard ADC of the Pynq-Z2 board has a reference voltage of 1.0 V, which defines the saturation point of the measurement. If the current exceeds this value, the measurement will saturate and will not be accurate.
 
 ### 🧵 Thread-based Measurements
 The software examples provided in this repository use a thread-based approach to continuously monitor the current consumption to accurately estimate energy consumption. This allows for real-time data acquisition and processing without blocking the main application.
