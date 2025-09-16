@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./Hardware/Resources/Renders/Power_Ranger_Cover.png" alt="GSR Monitor Board" width="700" />
+    <img src="./PCB_Design/Resources/Renders/Power_Ranger_Cover.png" alt="GSR Monitor Board" width="700" />
 </div>
 
 ## 🚀 Overview
