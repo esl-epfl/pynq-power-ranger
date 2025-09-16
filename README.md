@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./PCB_Design/Resources/Renders/Power_Ranger_Cover.png" alt="GSR Monitor Board" width="700" />
+    <img src="./PCB_Design/Resources/Renders/Power_Ranger_Cover.png" alt="Power Ranger Board" width="700" />
 </div>
 
 ## 🚀 Overview
@@ -25,10 +25,15 @@ Use **SW2 (ANA)** to toggle between the inputs:
 - **Left**: Specialized pin of the XADC of the chip (VP) -> Used by the Software Support examples
 - **Right**: An alternative Arduino A0 pin. Internally connected to a 3:1 resistor voltage divider that outputs (1.0 V when the input voltage is 3.3 V). This allows for a wider input range at the cost of resolution.
 
-| Input Pin | Saturation Point | Resolution    |
-|-----------|------------------|---------------|
-| VP        | 1.25 A           | 0.3 mA        |
-| A0        | 3.75 A           | 1.0 mA        |
+<div align="center">
+
+| Input Pin | Saturation Point | Resolution |
+|-----------|------------------|------------|
+| VP        | 1.25 A           | 0.3 mA     |
+| A0        | 3.75 A           | 1.0 mA     |
+
+</div>
+
 
 > [!WARNING]
 > The onboard ADC of the Pynq-Z2 board has a reference voltage of 1.0 V, which defines the saturation point of the measurement. If the current exceeds this value, the measurement will saturate and will not be accurate.
